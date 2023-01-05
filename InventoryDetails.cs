@@ -6,28 +6,16 @@ using System.Threading.Tasks;
 
 namespace InventoryManagementDemo
 {
-  public class InventoryDetails
+    public class InventoryDetails
     {
-        public List<TypesOfRice> typesOfRice;
-        public List<TypesOfPulse> typesOfPulse;
-        public List<TypesOfWheat> typesOfWheat;
+        public List<TypesOfShare>typesOfShare;
+       
     }
-    public class TypesOfRice
-    {
-        public string name;
-        public int weight;
-        public int price;
-    }
-    public class TypesOfPulse
+    public class TypesOfShare
     {
         public string name;
-        public int weight;
+        public int NumOfShare;
         public int price;
     }
-    public class TypesOfWheat
-    {
-        public string name;
-        public int weight;
-        public int price;
-    }
+   
 }

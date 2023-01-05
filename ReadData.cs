@@ -11,13 +11,14 @@ namespace InventoryManagementDemo
     {
         public InventoryDetails Read(string path)
         {
-            using (StreamReader file=new StreamReader(path))
+            using (StreamReader file = new StreamReader(path))
             {
                 try
                 {
                     string json = file.ReadToEnd();
                     return JsonConvert.DeserializeObject<InventoryDetails>(json);
-                }catch(Exception e)
+                }
+                catch (Exception e)
                 {
                     return null;
                 }
