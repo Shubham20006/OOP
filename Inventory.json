@@ -1,0 +1,49 @@
+{
+  "TypesOfRice": [
+    {
+      "name": "Rice1",
+      "price": 20,
+      "weight": 25
+    },
+    {
+      "name": "Rice2",
+      "price": 30,
+      "weight": 5
+    },
+    {
+      "name": "Rice3",
+      "price": 20,
+      "weight": 25
+    }
+  ],
+  "TypesOfPulse": [
+    {
+      "name": "Pulse1",
+      "price": 28,
+      "weight": 4
+    },
+    {
+      "name": "Pulse2",
+      "price": 10,
+      "weight": 5
+    },
+  
+  ],
+  "TypesOfWheat": [
+    {
+      "name": "Wheat1",
+      "price": 20,
+      "weight": 25
+    },
+    {
+      "name": "Wheat2",
+      "price": 30,
+      "weight": 17
+    },
+    {
+      "name": "Wheat3",
+      "price": 35,
+      "weight": 15
+    }
+  ]
+}
