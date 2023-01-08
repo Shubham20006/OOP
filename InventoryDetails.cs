@@ -4,18 +4,40 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace InventoryManagementDemo
+namespace StockManagement
 {
-    public class InventoryDetails
+    public class StockModel
     {
-        public List<TypesOfShare>typesOfShare;
-       
+        public List<CommonStocks> commonStocks;
+        public List<PreferredStocks> preferredStocks;
+        public List<HybridStocks> hybridStocks;
+
     }
-    public class TypesOfShare
+    public class Commpanyshares
     {
-        public string name;
-        public int NumOfShare;
-        public int price;
+        public string symbol { get; set; }
+        public int numberOfshares { get; set; }
+        public string DateTime { get; set; }
     }
-   
+    public class PreferredStocks
+    {
+        public string sharename;
+        public int numberOfShare;
+        public int sharePrice;
+    }
+    public class CommonStocks
+    {
+        public string sharename;
+        public int numberOfShare;
+        public int sharePrice;
+    }
+
+    public class HybridStocks
+    {
+        public string sharename;
+        public int numberOfShare;
+        public int sharePrice;
+    }
+
+
 }
